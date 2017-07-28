@@ -1,0 +1,25 @@
+
+name = psicodelia16
+
+description = Tema exclusivo para o site Psicodelia.org
+package = Core
+version = VERSION
+core = 7.x
+
+regions[topo] = Topo
+regions[content] = Content
+regions[sidebar_home] = Sidebar Home
+regions[sidebar_content] = Sidebar Content
+regions[rodape1] = Rodape 1
+regions[rodape2] = Rodape 2
+
+base theme = bootstrap
+
+stylesheets[all][] = css/geral.css
+stylesheets[all][] = css/max-767.css
+stylesheets[all][] = css/min-768.css
+
+scripts[] = js/geral.js
+
+
+
