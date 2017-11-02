@@ -39,7 +39,7 @@
             <a href="#" data-toggle="modal" data-target="#enviar-noticia">Envie uma Notícia</a>
             <a href="http://partiufestival.com/festivais" target="_blank">Festivais de Psytrance</a>
             <!--a href="<?php print $front_page; ?>anuncie-no-psicodelia">Anuncie</a-->
-            <!--a class="destaque" href="https://www.facebook.com/events/394389837585327/" target="_blank">Warm Up Psicodelia!</a-->
+            <a class="destaque" href="https://www.facebook.com/events/424544487900875/" target="_blank">Psicodelia 10 Anos - A Festa!</a>
           </div>
 
         </div>
