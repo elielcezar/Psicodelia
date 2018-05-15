@@ -13,7 +13,7 @@
 			      
 			      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?>					    
 			      
-			      <?php print $messages; ?>
+			      <?php //print $messages; ?>
 			      <?php if (!empty($tabs)): ?>
 			        <?php print render($tabs); ?>
 			      <?php endif; ?>					      			      

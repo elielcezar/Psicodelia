@@ -100,7 +100,7 @@ form input[type="submit"]:hover{
 /*--- CONTEUDO ---------------------------------------------------------------------------------------------------*/
 
 #principal h1{
-    font-size: 46px;
+    font-size: 52px;
     letter-spacing: -2px;
 }
 
@@ -133,27 +133,29 @@ form input[type="submit"]:hover{
 
 #principal p.rtecenter{text-align: center !important;}
 
-#principal p strong{font-weight: 800;}
+#principal p strong{font-weight: 700 !important;}
 
+
+/*
 #principal p a,
 #principal ul a,
 #principal ol a {
     background: #f5f5f5;
-    color: $vermelho !important;
+    color: $vermelho;
     text-decoration: underline;  
 
     &:hover{
-        color: #fff !important;
+        color: #fff;
         background: $vermelho;     
     }
-}
+}*/
 
 #principal blockquote{
     background: #f5f5f5;
-    width: 80vw;
+    width: 100%;
     margin: 50px 0;
     padding: 50px 15%;
-    margin-left: calc(-40vw + 50%);
+    //margin-left: calc(-40vw + 50%);
     
     p{
         font-size: 18px;

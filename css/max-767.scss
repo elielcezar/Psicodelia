@@ -332,7 +332,18 @@ header{
 
     header{margin-bottom: 50px;}
 
+    .panel-col-first{
+        width: 100%;               
+    }
+    .panel-col-last{
+        display: none;
+    }
+
     #principal{ 
+        padding: 0 5%;
+        overflow-x: hidden;
+
+        h1{font-size: 42px;}
 
         .link-user{display: none;}
 
@@ -365,6 +376,8 @@ header{
         }
 
         .facebook{overflow: hidden;}
+
+        blockquote{padding: 5%;}
 
     }
 

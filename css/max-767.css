@@ -17,6 +17,10 @@ p {
   font-size: 1.2em;
   color: #222; }
 
+.section.extras {
+  float: left;
+  width: 100%; }
+
 button,
 button.btn,
 a.btn,
@@ -83,13 +87,22 @@ form input[type="submit"]:hover {
 
 /*--- CONTEUDO ---------------------------------------------------------------------------------------------------*/
 #principal h1 {
-  font-size: 46px;
+  font-size: 52px;
   letter-spacing: -2px; }
 
 #principal h3 {
   letter-spacing: -1px;
   border-left: 5px solid #eb1940;
   padding: 10px 0 10px 15px; }
+
+#principal h4 {
+  font-family: georgia;
+  font-weight: 300;
+  font-size: 24px;
+  font-style: italic;
+  color: #555;
+  line-height: 34px;
+  margin-bottom: 25px; }
 
 #principal p,
 #principal ul,
@@ -106,16 +119,30 @@ form input[type="submit"]:hover {
 #principal p strong {
   font-weight: 800; }
 
+/*
 #principal p a,
 #principal ul a,
 #principal ol a {
+    background: #f5f5f5;
+    color: $vermelho;
+    text-decoration: underline;  
+
+    &:hover{
+        color: #fff;
+        background: $vermelho;     
+    }
+}*/
+#principal blockquote {
   background: #f5f5f5;
-  color: #222;
-  text-decoration: underline; }
-  #principal p a:hover,
-  #principal ul a:hover,
-  #principal ol a:hover {
-    color: #eb1940; }
+  width: 100%;
+  margin: 50px 0;
+  padding: 50px 15%; }
+  #principal blockquote p {
+    font-size: 18px;
+    font-style: italic;
+    margin-top: 20px;
+    color: #777;
+    font-family: Georgia, serif; }
 
 .player {
   position: relative;
@@ -395,30 +422,41 @@ form input[type="submit"]:hover {
   /*--- PAGINA DE UMA NOTICIA ----------------------------------------------------------------------------*/
   .node-type-story header {
     margin-bottom: 50px; }
-  .node-type-story #principal .link-user {
+  .node-type-story .panel-col-first {
+    width: 100%; }
+  .node-type-story .panel-col-last {
     display: none; }
-  .node-type-story #principal article {
-    padding-top: 50px; }
-    .node-type-story #principal article header {
+  .node-type-story #principal {
+    padding: 0 5%;
+    overflow-x: hidden; }
+    .node-type-story #principal h1 {
+      font-size: 42px; }
+    .node-type-story #principal .link-user {
       display: none; }
-  .node-type-story #principal img {
-    max-width: 100%;
-    height: auto !important; }
-  .node-type-story #principal .views-field-field-assunto a {
-    display: inline-block;
-    color: #fff;
-    background: #eb1940;
-    padding: 5px 15px;
-    text-transform: uppercase; }
-  .node-type-story #principal .views-field-field-chamada {
-    font-size: 20px;
-    color: #999;
-    margin: 20px 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
-    letter-spacing: -1px; }
-  .node-type-story #principal .facebook {
-    overflow: hidden; }
+    .node-type-story #principal article {
+      padding-top: 50px; }
+      .node-type-story #principal article header {
+        display: none; }
+    .node-type-story #principal img {
+      max-width: 100%;
+      height: auto !important; }
+    .node-type-story #principal .views-field-field-assunto a {
+      display: inline-block;
+      color: #fff;
+      background: #eb1940;
+      padding: 5px 15px;
+      text-transform: uppercase; }
+    .node-type-story #principal .views-field-field-chamada {
+      font-size: 20px;
+      color: #999;
+      margin: 20px 0;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
+      letter-spacing: -1px; }
+    .node-type-story #principal .facebook {
+      overflow: hidden; }
+    .node-type-story #principal blockquote {
+      padding: 5%; }
   .node-type-story #comentarios .banner {
     margin-bottom: 25px; }
   .node-type-story .mais-noticias {
